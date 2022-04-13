@@ -1,0 +1,108 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: #fc3262;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+p {
+    margin-top: 0px;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    max-width: 350px;
+    margin-top: 1em;
+    margin-left: 4em;
+}
+
+label {
+    display: inline-block;
+    text-align: left;
+    padding: .5em;
+}
+
+select {
+    padding: 10px 6px;
+    width: 17em;
+    border-radius: 5px;
+}
+
+input {
+    padding: 10px 6px;
+    margin-top: 0.5em;
+    margin-left: 2.35em;
+    width: 16em;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+button {
+    background: #fc3262;
+    border: 0;
+    padding: 10px 20px;
+    margin-top: 0.5em;
+    margin-left: 6.9em;
+    color: white;
+    border-radius: 5px;
+}
+
+#movies {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 4.5em;
+    border-collapse: collapse;
+}
+
+td {
+    font-weight: bold;
+}
+
+tr {
+    border-bottom: solid rgb(233, 233, 233);
+    vertical-align: baseline;
+}
+
+li {
+    list-style-type: none;
+}
+
+th {
+    text-align: right;
+}
+
+img {
+    max-width: 50%;
+    max-height: 50%;
+    margin-top: -8em;
+    margin-left: 130%;
+    margin-bottom: 1em;
+}
+
+#movieInfo {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 4.5em;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.boxText {
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 5px;
+    margin-left: 1em;
+    padding: 2%;
+    max-width: 350px;
+}

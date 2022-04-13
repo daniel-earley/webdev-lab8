@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="./scripts/main.js"></script>
+    <title>Showtimes</title>
+</head>
+<body>
+    <header>
+        <h1>Showtimes</h1>
+        <p>Give me something to do!</p>
+    </header>
+    
+    <form id="form" onsubmit="event.preventDefault(); handleSubmit(event);">
+        <label>Location:</label>
+        <select name="Locations" id="Locations">
+            <option value="Oshawa Cinemas">Oshawa Cinemas</option>
+            <option value="Pickering Cinemas">Pickering Cinemas</option>
+            <option value="Ajax Cinemas">Ajax Cinemas</option>
+            <option value="Scarborough Cinemas">Scarborough Cinemas</option>
+            <option value="Markham Cinemas">Markham Cinemas</option>
+        </select>
+
+        <label>Date:</label>
+        <input name="Date" type="date" required>
+
+        <button id="search">Search</button>
+    </form>
+
+    <table id="movies"></table>
+    <table id="movieInfo"></table>
+
+</body>
+</html>
